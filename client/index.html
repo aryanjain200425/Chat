@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>RPS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="rps-wrapper">
+      <ul id = "events"></ul>
+
+      <div class="button-wrapper">
+        <form id = "chat-form">
+          <input type="text" id = "chat" >
+          <button type="submit" id = "say" name="button">Say</button>
+        </form>
+
+
+
+
+        <button type="button" id = "rock" name="button">Rock</button>
+        <button type="button" id = "paper" name="button">Paper</button>
+        <button type="button" id = "scissors" name="button">Scissors</button>
+      </div>
+    </div>
+
+    <script src = "/socket.io/socket.io.js"></script>
+    <script src = "src/client.js"></script>
+  </body>
+</html>
