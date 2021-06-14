@@ -32,6 +32,6 @@ server.on('error', (err) =>{
 });
 
 
-server.listen(" https://shielded-lowlands-10094.herokuapp.com/", () => {
+server.listen(process.env.PORT || 8080, () => {
   console.log(("RPS Started on 8080"));
 });
