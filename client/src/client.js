@@ -1,4 +1,4 @@
-const sock = io("https://sleepy-fortress-48260.herokuapp.com/");
+const sock = io("https://shielded-lowlands-10094.herokuapp.com/");
 
 const write = (text) => {
   const parent = document.querySelector('#events');
